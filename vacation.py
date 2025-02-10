@@ -1,8 +1,5 @@
 class Employee:
     vacation_days = 28
-    # first_name = ''
-    # second_name = ''
-    # gender = ''
 
     def __init__(self,
                  first_name_value,
@@ -27,6 +24,16 @@ employee2 = Employee(
     gender_value='м'
     )
 
-# developer = Employee(dial_type_value='разработчик')
-print(f'Имя: {employee1.first_name}, Фамилия: {employee1.second_name}, Пол: {employee1.gender}, Отпускных дней в году: {employee1.vacation_days}.')
-print(f'Имя: {employee2.first_name}, Фамилия: {employee2.second_name}, Пол: {employee2.gender}, Отпускных дней в году: {employee2.vacation_days}.')
+print(
+    f'Имя: {employee1.first_name}, '
+    f'Фамилия: {employee1.second_name}, '
+    f'Пол: {employee1.gender}, '
+    f'Отпускных дней в году: {employee1.vacation_days}.'
+)
+
+print(
+    f'Имя: {employee2.first_name}, '
+    f'Фамилия: {employee2.second_name}, '
+    f'Пол: {employee2.gender}, '
+    f'Отпускных дней в году: {employee2.vacation_days}.'
+)
