@@ -8,7 +8,8 @@ class Employee:
         self.remaining_vacation_days = self.vacation_days
 
     def consume_vacation(self, consume_value):
-        self.remaining_vacation_days = self.remaining_vacation_days - consume_value
+        self.remaining_vacation_days = (self.remaining_vacation_days
+                                        - consume_value)
 
     def get_vacation_details(self):
         return f'Остаток отпускных дней: {self.remaining_vacation_days}.'
