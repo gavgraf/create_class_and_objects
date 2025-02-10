@@ -20,8 +20,8 @@ employee.consume_vacation(7)
 
 print(
     f'Имя: {employee.first_name}, \
-    Фамилия: {employee.second_name}, \
-    Пол: {employee.gender}, \
-    Отпускных дней в году: {employee.vacation_days}.'
+Фамилия: {employee.second_name}, \
+Пол: {employee.gender}, \
+Отпускных дней в году: {employee.vacation_days}.'
 )
 print(employee.get_vacation_details())
