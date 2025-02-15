@@ -9,14 +9,16 @@ class BacteriaProducer:
             print('В популяции нет бактерий, удалять нечего')
         else:
             self.current_bacteria_count -= 1
-            print(f'Одна бактерия удалена. Бактерий в колонии: {self.current_bacteria_count}')
+            print(f'Одна бактерия удалена. Бактерий в колонии: \
+ {self.current_bacteria_count}')
 
     def create(self):
         if self.current_bacteria_count >= self.max_bacteria:
             print('Нет места под новую бактерию')
         else:
             self.current_bacteria_count += 1
-            print(f'Добавлена одна бактерия. Бактерий в колонии: {self.current_bacteria_count}')
+            print(f'Добавлена одна бактерия. Бактерий в колонии:\
+ {self.current_bacteria_count}')
 
 
 # Пример запуска для самопроверки
